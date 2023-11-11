@@ -1,0 +1,184 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    
+    
+    
+}
+
+#home-wrapper{
+    background: hsla(0, 96%, 69%, 1);
+    background: linear-gradient(250deg, hsla(0, 96%, 69%, 1) 0%, hsla(33, 100%, 82%, 1) 100%);
+    background: -moz-linear-gradient(250deg, hsla(0, 96%, 69%, 1) 0%, hsla(33, 100%, 82%, 1) 100%);
+    background: -webkit-linear-gradient(250deg, hsla(0, 96%, 69%, 1) 0%, hsla(33, 100%, 82%, 1) 100%);
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.home-content{
+    margin-top: 3rem;
+    width: 100%;
+    height: 90vh;
+    /* background-color: green; */
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+}
+
+.toolbar{
+    width: 20% ; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+   
+}
+
+.tool-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tool-list button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    width: 4rem;
+    height: 4rem;
+}
+
+.tool-btn{
+    height: 3rem;
+}
+
+.middle{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1rem;
+    margin-left: 1rem;
+
+}
+
+.colors{
+    max-width: 20%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+
+}
+
+.colors button{
+    width: 2rem;
+    height: 2rem;
+    margin: .2rem;
+    border-radius: 90%;
+    border: none;
+}
+
+.palette {
+
+    display: flex;
+    flex-wrap: wrap; 
+    align-items: center;
+    justify-content: center;
+  
+}
+#canvas{
+    border: solid red 2px; 
+    min-height: 16rem;
+    min-width: 16rem;
+
+}
+
+.savebtn{
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    border-radius: 4rem;
+    padding: 7px;
+    font-family: Excelorate, Arial, Helvetica, sans-serif;
+    background-color: #8CA0AA;
+
+}
+
+
+
+@media  screen and (max-width:400px) {
+    .tool-list button{
+        width: 3rem;
+        height: 3rem;
+    }
+    .tool-btn{
+        height: 2rem;
+    }
+
+    .colors button{
+        width: 1.5rem;
+        height: 1.5rem;
+        margin: .2rem;
+        border-radius: 90%;
+        border: none;
+    }
+    
+    
+}
+
+
+@media screen and (max-width: 650px) {
+
+    #canvas{
+        min-height: 20rem;
+        min-width: 20rem; 
+
+    }
+    .home-content{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tool-list{
+        display: flex;
+        flex-direction: row;
+    }
+    .toolbar{
+        width: 80%;
+        height: 10vh;
+        margin-bottom: 2rem;
+        align-items: center;
+    }
+    
+    .middle{
+        width: 90%; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        
+    }
+    
+    .colors{
+        justify-content: center;
+        display: flex;
+        flex-direction: row;
+        max-width: 80%;
+        height: 10vh;
+        margin-top:2rem;
+
+    }
+
+
+}
