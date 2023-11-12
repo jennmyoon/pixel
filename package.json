@@ -1,7 +1,7 @@
 {
   "name": "pixel",
   "version": "0.1.0",
-  "homepage": "https://jennmyoon.github.io/pixelArt",
+  "homepage": "https://jennmyoon.github.io/pixel",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
