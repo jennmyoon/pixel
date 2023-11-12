@@ -9,6 +9,12 @@ import {ModalProvider} from './Components/ModalContext.js';
 import { useEffect } from 'react';
 
 function App() {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    // Redirect to the home route when the component mounts
+    navigate('/');
+  }, []);
 
   return (
     <div id='app-wrapper'>
