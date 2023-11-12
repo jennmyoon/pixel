@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/pixel/static/css/main.edc383c8.css",
+    "main.js": "/pixel/static/js/main.2a5b77af.js",
+    "static/media/Excelorate-Font.otf": "/pixel/static/media/Excelorate-Font.b72767b12a70db4f7aa2.otf",
+    "static/media/YapariTrial-Regular.ttf": "/pixel/static/media/YapariTrial-Regular.42ade846359099fe0d17.ttf",
+    "static/media/logo.svg": "/pixel/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/fill.svg": "/pixel/static/media/fill.c02700e7e7738c8c79c276fb65cf5915.svg",
+    "static/media/eraser.svg": "/pixel/static/media/eraser.601df3b4a53d6a6b0a48d6aeadc09ab4.svg",
+    "static/media/info-Button.svg": "/pixel/static/media/info-Button.82f5e89fd1d95671402c0123fe4f67cc.svg",
+    "static/media/pen.svg": "/pixel/static/media/pen.9a21afa11289e8accda0a1563be18694.svg",
+    "index.html": "/pixel/index.html",
+    "static/media/clear.svg": "/pixel/static/media/clear.34fe460082cd77401b9a98bcd1e1732e.svg",
+    "main.edc383c8.css.map": "/pixel/static/css/main.edc383c8.css.map",
+    "main.2a5b77af.js.map": "/pixel/static/js/main.2a5b77af.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.edc383c8.css",
+    "static/js/main.2a5b77af.js"
+  ]
+}
