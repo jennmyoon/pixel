@@ -76,9 +76,9 @@ const Modal = () => {
             <div className="modal-subtitle">
                 KEEP YOUR ART!
             </div>
-            <div className="content">
-                <span>Step 1:</span> When you are satisfied with your art, click the bolded SAVE button <br/>
-                <span>Step 2:</span> Switch to the Gallery Page and view all your saved artwork!
+            <div className="content pageThree">
+                <b>Step 1:</b> <span>When you are satisfied with your art, click the bolded SAVE button </span>
+                <b>Step 2:</b> <span>Switch to the Gallery Page and view all your saved artwork!</span>
             </div>
         </div>
     ]
