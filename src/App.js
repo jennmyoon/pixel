@@ -9,15 +9,14 @@ import {ModalProvider} from './Components/ModalContext.js';
 import { useEffect } from 'react';
 
 function App() {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
-  useEffect(() => {
-    // Redirect to the home route when the component mounts
-    navigate('/');
-  }, []);
+  // useEffect(() => {
+  //   // Redirect to the home route when the component mounts
+  //   navigate('/');
+  // }, []);
 
   return (
-    <HashRouter>
       <div id='app-wrapper'>
           <ModalProvider>
             <Navbar infoButton={infoButton}/>
@@ -27,7 +26,6 @@ function App() {
             </Routes>
           </ModalProvider>
       </div>
-    </HashRouter>
  
   );
 }
