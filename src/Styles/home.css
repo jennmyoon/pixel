@@ -116,7 +116,7 @@ body{
 
 
 
-@media  screen and (max-width:400px) {
+@media  screen and (max-width:430px) {
     .tool-list button{
         width: 3rem;
         height: 3rem;
@@ -133,11 +133,13 @@ body{
         border: none;
     }
 
+  
+
     #home-wrapper{
         overflow: hidden;
         max-height: 100vh;
     }
-    
+
     
 }
 

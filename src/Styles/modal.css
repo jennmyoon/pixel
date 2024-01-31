@@ -136,6 +136,7 @@
     background-color: pink;
 } */
 
+
 @media screen and (max-width: 650px) {
     .modal--wrapper{
         width: 20rem;
