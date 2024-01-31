@@ -132,6 +132,11 @@ body{
         border-radius: 90%;
         border: none;
     }
+
+    #home-wrapper{
+        overflow: hidden;
+        max-height: 100vh;
+    }
     
     
 }
